@@ -35,7 +35,7 @@ public class PerfTesterApplicationTests {
             .parallel()
             .subscribe(req -> {
                 req.exchange()
-                   .block(Duration.ofSeconds(1));
+                   .block(Duration.ofSeconds(5));
                 counter.increment();
             });
         System.out.println("Requests = " + counter.count());
