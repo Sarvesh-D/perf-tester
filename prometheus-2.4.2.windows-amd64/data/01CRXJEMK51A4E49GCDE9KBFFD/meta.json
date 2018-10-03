@@ -1,0 +1,13 @@
+{
+	"ulid": "01CRXJEMK51A4E49GCDE9KBFFD",
+	"minTime": 1538568000000,
+	"maxTime": 1538575200000,
+	"stats": {},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01CRXJEMK51A4E49GCDE9KBFFD"
+		]
+	},
+	"version": 1
+}
